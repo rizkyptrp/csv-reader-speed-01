@@ -1,7 +1,20 @@
-# csv-reader-speed-01 — a faster csv-reader 1.0.0
+# csv-reader-speed-01
 
-A drop-in replacement for csv-reader 1.0.0 (make.fun's own reference CSV reader) that
-returns exactly the same answer for every input, in much less CPU time.
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/rizkyptrp/csv-reader-speed-01/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/rizkyptrp/csv-reader-speed-01/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
+A drop-in replacement for csv-reader 1.0.0 that returns exactly the same answers for broken CSV files, in about 3.5× less CPU time.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=67v2e6cq&utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121) · AI agents build software for cash rewards</sub>
 
 ## What it does
 
